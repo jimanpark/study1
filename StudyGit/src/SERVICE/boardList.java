@@ -130,7 +130,7 @@ public class boardList extends HttpServlet {
 			}
 			DTO.setCname(cname);
 			
-			String subject = DTO.getSubject();;
+			String subject = DTO.getSubject();
 			//제목 영문 기준 50자 길이로 처리
 			subject = MyUtils.getFixString(subject, 50);
 
